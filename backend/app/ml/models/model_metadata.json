@@ -1,0 +1,25 @@
+{
+  "binary_classifier": {
+    "type": "TF-IDF + Logistic Regression",
+    "accuracy": 0.9365079365079365,
+    "auc_roc": 0.9761904761904762,
+    "cv_f1_mean": 0.9616782974596964,
+    "cv_f1_std": 0.01518996981395004,
+    "training_samples": 251,
+    "test_samples": 63
+  },
+  "attack_classifier": {
+    "type": "TF-IDF + Logistic Regression (Multinomial)",
+    "accuracy": 0.9069767441860465,
+    "classes": [
+      "Adversarial Suffix",
+      "Data Exfiltration",
+      "Jailbreak",
+      "PII Extraction",
+      "Prompt Injection",
+      "Role-Play Bypass"
+    ],
+    "training_samples": 168,
+    "test_samples": 43
+  }
+}
